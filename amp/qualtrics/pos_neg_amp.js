@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/umisrcps/minno-tasks/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	var global = API.getGlobal();
@@ -61,7 +61,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
+			image : 'https://umisrcps.github.io/minno-tasks/images/ampImages'
 		}
 	});
 });

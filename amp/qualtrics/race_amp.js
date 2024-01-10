@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/umisrcps/minno-tasks-pasek@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/umisrcps/minno-tasks@0.*/amp/qualtrics/qamp.js'], function(APIConstructor, ampExtension){
 
 	var API = new APIConstructor();
 	

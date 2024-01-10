@@ -52,7 +52,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/umisrcps/minno-tasks@0.*/amp/qual
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://umisrcps.github.io/minno-tasks-pasek/images/ampImages'
+			image : 'https://umisrcps.github.io/minno-tasks/images/ampImages'
 		}
 	});
 });

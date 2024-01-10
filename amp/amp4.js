@@ -123,14 +123,14 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : '/implicit/common/all/js/pip/piscripts/amp/images/'
 			}, 
 
-			trialsInBlock : [40, 40, 40], //Number of trials in each block 
+			trialsInBlock : [30, 30, 30], //Number of trials in each block - changed from 40 to 30
 			trialsInExample : 3, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
-			primeDuration : 100, 
+			primeDuration : 50, 
 			postPrimeDuration : 100, //Duration of blank screen between prime and target.
-			targetDuration : 100, //Duration of target presentation.
+			targetDuration : 150, //Duration of target presentation.
 			showRatingDuration : 300, //In the 7-responses option, for how long to show the selected rating.
 			ITI : 250, //Duration between trials.
 			
